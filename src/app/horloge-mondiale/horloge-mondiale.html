@@ -1,0 +1,9 @@
+
+<h1>Horloges Mondiales</h1>
+<div class="grille-horloges">
+  <app-horloge-ville
+    *ngFor="let horloge of horloges"
+    [ville]="horloge.ville"
+    [heure]="horloge.heure">
+  </app-horloge-ville>
+</div>
